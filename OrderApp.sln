@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26621.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderWeb", "OrderWeb\OrderWeb.csproj", "{7580FDA2-C4D2-46A4-9B91-F908FC327832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderBot", "OrderBot\OrderBot.csproj", "{E6041D3F-CD02-4A94-9836-38F2E2CFFF43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderFunctions", "OrderFunctions\OrderFunctions.csproj", "{46A2EB7C-2D35-47A2-BD8B-1590A630F89E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7580FDA2-C4D2-46A4-9B91-F908FC327832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7580FDA2-C4D2-46A4-9B91-F908FC327832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7580FDA2-C4D2-46A4-9B91-F908FC327832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7580FDA2-C4D2-46A4-9B91-F908FC327832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6041D3F-CD02-4A94-9836-38F2E2CFFF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6041D3F-CD02-4A94-9836-38F2E2CFFF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6041D3F-CD02-4A94-9836-38F2E2CFFF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6041D3F-CD02-4A94-9836-38F2E2CFFF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A2EB7C-2D35-47A2-BD8B-1590A630F89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A2EB7C-2D35-47A2-BD8B-1590A630F89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A2EB7C-2D35-47A2-BD8B-1590A630F89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A2EB7C-2D35-47A2-BD8B-1590A630F89E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D79B189A-DA3D-455D-B287-0B5FA802FFDF}
+	EndGlobalSection
+EndGlobal
