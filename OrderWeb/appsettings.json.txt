@@ -1,0 +1,18 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection0": "Server=(localdb)\\mssqllocaldb;Database=aspnet-OrderWeb-464D76C5-55AE-4F79-8FFE-FAEA6A8C01D0;Trusted_Connection=True;MultipleActiveResultSets=true",
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "Debug": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    },
+    "Console": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    }
+  }
+}

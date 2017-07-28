@@ -10,6 +10,10 @@ namespace OrderWeb.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Product> Products { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
@@ -22,5 +26,7 @@ namespace OrderWeb.Data
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
         }
+
+        public DbSet<OrderWeb.Models.OrderProduct> OrderProduct { get; set; }
     }
 }
